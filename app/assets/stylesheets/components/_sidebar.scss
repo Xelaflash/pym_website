@@ -1,0 +1,37 @@
+#sidebar {
+  background-color: #171b34;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 170px;
+  text-align: center;
+  position: fixed;
+  margin-top: 70px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: lighter;
+  color: white;
+}
+
+#sidebar a:hover {
+  color: white;
+
+}
+
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+#sidebar li {
+/*   margin-top: 50px; */
+  margin-bottom: 50px;
+
+  &:hover {
+    border-bottom: 1px solid #fda831;
+  }
+}
