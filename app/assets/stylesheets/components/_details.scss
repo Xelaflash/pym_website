@@ -1,24 +1,30 @@
 a{
   color: black;
+
 }
 
 h5 {
   margin-top: 6.5px;
+  font-size: 17px;
+  margin-bottom: 0;
 }
+
+h4 {
+  margin-bottom: 6.5px;
+}
+
 .card-contact-side {
   background: white;
-  width: 82%;
-  padding: 30px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  width: 89%;
+  padding: 15px 30px 0px 30px;
+  // margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  margin-left: 120px;
+  margin-left: 169px;
 }
-
 
 .text_center{
   text-align: center;
@@ -27,37 +33,40 @@ h5 {
 .avatar {
   height: 110px;
   width: 110px;
-  margin-top: -5px;
+  margin-top: -10px;
+  margin-right: 40px;
 
 }
 
 .left {
   padding-top: 5px;
+  margin-left: 30px;
 }
 
 
 @media only screen and (max-device-width : 768px) {
   .card-contact-side {
-    margin-left: 0;
-    width: 100%;
+    margin-left: 16px;
+    width: 92%;
     text-align: center;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
   .left {
-    margin-left: 18px;
+    margin-left: 15px;
   }
   .text_center{
   text-align: none;
+  }
+
+  h5 {
+  margin-top: 6.5px;
+  font-size: 17px;
+  margin-bottom: 3px;
+  }
 }
-}
 
 
-
-
-.right {
-  // padding: 25px;
-  // padding-top: 10px;
-}
 
 
 
