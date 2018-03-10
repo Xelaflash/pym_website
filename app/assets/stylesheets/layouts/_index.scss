@@ -4,6 +4,8 @@
 // @import "profile";
 // @import "map";
 
+
+
 body {
   background: #e6ecf0;
   color: black;
@@ -12,8 +14,14 @@ body {
 
 
 #page-content {
-  margin-left: 120px;
+  margin-left: 0px;
+}
 
+
+@media only screen and (min-device-width : 768px) {
+#page-content {
+  margin-left: 120px;
+  }
 }
 
 

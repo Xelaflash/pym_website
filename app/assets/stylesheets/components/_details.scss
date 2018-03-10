@@ -1,10 +1,3 @@
-.contact {
-  margin-left: 20px;
-
-}
-
-
-
 a{
   color: black;
 }
@@ -12,43 +5,53 @@ a{
 h5 {
   margin-top: 6.5px;
 }
-.card-contact {
+.card-contact-side {
   background: white;
-  width: 80%;
+  width: 82%;
   padding: 30px;
   padding-bottom: 10px;
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  margin-left: 135px;
   margin-top: 20px;
-    display: flex;
+  display: flex;
   justify-content: space-between;
+  margin-left: 120px;
 }
 
-
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 .text_center{
   text-align: center;
 }
 
 .avatar {
-  height: 140px;
-  width: 140px;
-  margin-top: -20px;
+  height: 110px;
+  width: 110px;
+  margin-top: -5px;
 
 }
 
 .left {
-
   padding-top: 5px;
 }
+
+
+@media only screen and (max-device-width : 768px) {
+  .card-contact-side {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .left {
+    margin-left: 18px;
+  }
+  .text_center{
+  text-align: none;
+}
+}
+
+
 
 
 .right {

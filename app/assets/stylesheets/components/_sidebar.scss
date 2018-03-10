@@ -1,12 +1,14 @@
+
 #sidebar {
   background-color: #171b34;
   left: 0px;
   top: 0px;
   bottom: 0px;
-  width: 170px;
+  max-width: 170px;
   text-align: center;
   position: fixed;
   margin-top: 70px;
+  border-right: 1px solid white;
 }
 
 #sidebar a {

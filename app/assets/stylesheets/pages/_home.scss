@@ -9,20 +9,18 @@
   margin-top: 50px;
 }
 
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+
+@media only screen and (max-device-width : 768px) {
+  .card-home {
+    width: 100%;
+    margin-left: 0;
+  }
 }
+
 
 .text_center{
   text-align: center;
 }
 
 
-.banner {
-  height: 400px;
-  background-size: cover !important;
-  margin-right: -50px;
-}
+
