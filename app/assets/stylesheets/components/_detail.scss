@@ -44,23 +44,23 @@ h4 {
 
 @media only screen and (max-device-width : 768px) {
   .card-contact-side {
-    margin-left: 16px;
-    width: 92%;
+    margin-left: 0px;
+    width: 100%;
     text-align: center;
     padding-bottom: 10px;
     margin-bottom: 10px;
+      h4 {
+        margin-left: 25px;
+        text-align: center;
+      }
+      h5 {
+      margin-top: 6.5px;
+      font-size: 17px;
+      margin-bottom: 3px;
+      }
   }
   .left {
-    margin-left: 15px;
-  }
-  h5 {
-  margin-top: 6.5px;
-  font-size: 17px;
-  margin-bottom: 3px;
-  }
-  h4 {
-    margin-left: 20px;
-    text-align: center;
+    margin-left: 25px;
   }
   .fa-phone-volume {
     margin-left: 23px;
