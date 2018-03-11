@@ -15,14 +15,14 @@ h4 {
 
 .card-contact-side {
   background: white;
-  width: 111%;
-  padding: 15px 30px 0px 0px;
+  width: 89%;
+  padding: 15px 30px 0px 30px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  margin-left: 20px;
+  margin-left: 169px;
 }
 
 .text_center{
@@ -54,6 +54,10 @@ h4 {
   .left {
     margin-left: 15px;
   }
+  .text_center{
+  text-align: none;
+  }
+
   h5 {
   margin-top: 6.5px;
   font-size: 17px;
@@ -61,7 +65,6 @@ h4 {
   }
   h4 {
     margin-left: 20px;
-    text-align: center;
   }
   .fa-phone-volume {
     margin-left: 23px;
@@ -70,3 +73,20 @@ h4 {
   margin-left: 23px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
