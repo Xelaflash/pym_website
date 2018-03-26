@@ -17,6 +17,10 @@
   color: white;
 }
 
+.menu {
+  background-color: #171b34;
+  border: 0;
+}
 
 /* Logo */
 .navbar-wagon-brand img {
@@ -97,7 +101,7 @@ hr {
 }
 .navbar-wagon {
   padding: 0;
-  max-width: 375px;
+  // max-width: 375px;
   }
   .fa-bars {
   margin-right: 10px;
