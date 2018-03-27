@@ -1,0 +1,7 @@
+meta_product_name: "Pierre-Yves Mori - TCC"
+meta_title: "Pierre-Yves Mori, Thérapeute, intervenant en thérapie comportementale et cognitive."
+meta_description: "Thérapeute, formateur, je propose une approche psychothérapeutique qui se base sur le référentiel des thérapies comportementales et cognitives (TCC)."
+meta_image: "pym-black.jpg.jpg"                       # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
+
+
