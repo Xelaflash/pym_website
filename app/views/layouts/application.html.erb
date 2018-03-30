@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116655037-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-116655037-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Pierre-Yves Mori - TCC</title>
@@ -37,5 +46,7 @@
       <%= render 'shared/detail' %>
       <%= javascript_include_tag 'application' %>
       <%= javascript_pack_tag 'application' %>
+      <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js" %>
+      <%= javascript_pack_tag "map" %>
   </body>
 </html>
