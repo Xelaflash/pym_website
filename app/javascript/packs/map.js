@@ -1,10 +1,14 @@
 import GMaps from 'gmaps/gmaps.js';
 
-function initMap() {
-        // Create a map object and specify the DOM element for display.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 52.5206, lng: 13.4098},
-          scrollwheel: false,
-          zoom: 8
-        });
+const mapElement = document.getElementById('map'); {
+  var cabinet = {lat: 44.83686989999999, lng: -0.5679794999999785};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    center: cabinet
+    });
+  var marker = new google.maps.Marker({
+    position: cabinet,
+    map: map
+  });
 }
+
