@@ -14,7 +14,7 @@ h4 {
 
 .card-contact-side {
   background: white;
-  max-width: 80%;
+  width: 80%;
   padding: 15px 30px 20px 0px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
@@ -23,6 +23,14 @@ h4 {
   justify-content: space-between;
   margin-left: 204px;
   margin-bottom: 10px;
+}
+
+@media (min-width: 768px)
+  and (max-width: 1023px) {
+    .card-contact-side {
+      width: 100%;
+      margin-left: 0px;
+    }
 }
 
 .text_center{
@@ -43,16 +51,18 @@ h4 {
 }
 
 
-@media only screen and (max-device-width : 768px) {
+@media (min-width: 320px)
+  and (max-width: 730px) {
   .card-contact-side {
     margin-left: 0px;
     width: 100%;
-    text-align: center;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    padding-right: 0;
       h4 {
-        margin-left: 25px;
-        text-align: center;
+        margin-left: 5px;
+        margin-top: 0;
+        padding-bottom: 20px;
       }
       h5 {
       margin-top: 6.5px;
@@ -61,12 +71,23 @@ h4 {
       }
   }
   .left {
-    margin-left: 25px;
+    margin: 0 auto;
   }
   .fa-phone-volume {
-    margin-left: 23px;
+    margin-left: -17px;
+    padding-right: 10px;
   }
   .fa-envelope {
-  margin-left: 23px;
+  padding-right: 10px;
   }
+  .mail {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 731px)
+  and (max-width: 767px) {
+    .left {
+      margin-left: 150px;
+    }
 }
