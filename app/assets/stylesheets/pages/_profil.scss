@@ -9,6 +9,13 @@
   margin-left: 201px;
 }
 
+.profil {
+  margin: 20px 0 30px 0;
+}
+
+ul {
+  line-height: 1.8;
+}
 
 @media only screen and (max-device-width : 768px) {
   .card-profile {
@@ -16,15 +23,6 @@
     margin-left: 0;
     }
 }
-
-
-
-
-
-.text_center{
-  text-align: center;
-}
-
 
 .banner-formation {
   height: 400px;
