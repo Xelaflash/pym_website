@@ -17,14 +17,6 @@ h4 {
   justify-content: space-between;
 }
 
-@media (min-width: 768px)
-  and (max-width: 1023px) {
-    .card-contact-side {
-      width: 100%;
-      margin-left: 0px;
-    }
-}
-
 .text_center{
   text-align: center;
 }
@@ -42,44 +34,45 @@ h4 {
   margin-left: 30px;
 }
 
-
-@media (min-width: 320px)
-  and (max-width: 730px) {
-  .card-contact-side {
-    margin-left: 0px;
-    width: 100%;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    padding-right: 0;
-      h4 {
-        margin-left: 5px;
-        margin-top: 0;
-        padding-bottom: 20px;
-      }
-      h5 {
-      margin-top: 6.5px;
-      font-size: 17px;
-      margin-bottom: 3px;
-      }
-  }
-  .left {
-    margin: 0 auto;
-  }
-  .fa-phone-volume {
-    margin-left: -17px;
-    padding-right: 10px;
-  }
-  .fa-envelope {
-  padding-right: 10px;
-  }
-  .mail {
-    margin-bottom: 10px;
-  }
-}
-
-@media (min-width: 731px)
-  and (max-width: 767px) {
-    .left {
-      margin-left: 150px;
+// iphone du 4 au x
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .card-contact-side {
+      margin-left: 0px;
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 10px;
+        h4 {
+          margin-left: 5px;
+          margin-top: 0;
+          padding-bottom: 20px;
+        }
+        h5 {
+        margin-top: 6.5px;
+        font-size: 17px;
+        margin-bottom: 3px;
+        }
     }
-}
+    .left {
+      margin: 0 auto;
+    }
+    .fa-phone-volume {
+      margin-left: -17px;
+      padding-right: 10px;
+    }
+    .fa-envelope {
+    padding-right: 10px;
+    }
+    .mail {
+      margin-bottom: 10px;
+    }
+  }
+
+
+  @media (max-width: 767px) {
+    .left {
+      margin: 0 auto;
+    }
+  }
