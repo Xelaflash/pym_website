@@ -3,21 +3,6 @@
   background-size: cover !important;
 }
 
-.card-contact {
-  background: white;
-  width: 80%;
-  padding: 30px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
-  margin-top: 30px;
-  margin-left: 199px;
-  h4 {
-  margin-top: -3.5px;
-  }
-}
-
-
 .list {
   width: 75%;
   margin-right: 0;
@@ -48,6 +33,10 @@
   }
 }
 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-
-
+}
