@@ -70,9 +70,36 @@ h4 {
     }
   }
 
-
-  @media (max-width: 767px) {
-    .left {
-      margin: 0 auto;
-    }
+@media (max-width: 767px) {
+  .left {
+    margin: 0 auto;
   }
+}
+
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .card-contact-side {
+      margin: 50px 0 20px 204px;
+      width: 80%;
+    }
+    .left {
+      padding-top: 5px;
+      margin-left: 30px;
+    }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1366px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .left {
+      padding-top: 5px;
+      margin-left: 10px;
+    }
+}

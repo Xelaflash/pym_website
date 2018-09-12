@@ -74,10 +74,8 @@
   color: black !important;
 }
 .navbar-wagon-dropdown-menu:before {
-  // height: 10px;
   width: 10px;
   right: 10px;
-  // top: -6px;
   background-color: white;
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
@@ -108,4 +106,14 @@ hr {
   .fa-bars {
   margin-right: 10px;
   }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .navbar-wagon-item {
+      padding: 0 20px;
+    }
 }

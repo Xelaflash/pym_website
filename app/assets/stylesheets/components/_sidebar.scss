@@ -4,7 +4,7 @@
   left: 0px;
   top: 0px;
   bottom: 0px;
-  max-width: 170px;
+  width: 170px;
   text-align: center;
   position: fixed;
   margin-top: 70px;
@@ -30,9 +30,7 @@
 }
 
 #sidebar li {
-/*   margin-top: 50px; */
   margin-bottom: 50px;
-
   &:hover {
     border-bottom: 1px solid #fda831;
   }
@@ -40,4 +38,24 @@
 
  .active {
   font-weight: bold !important;
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1366px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #sidebar {
+      visibility: hidden;
+    }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #sidebar {
+      width: 200px;
+    }
 }
