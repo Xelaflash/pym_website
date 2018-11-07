@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'pages/intervenant'
   get 'pages/therapie'
   get 'pages/contact'
+  get 'pages/legal'
 
   devise_for :users
 end

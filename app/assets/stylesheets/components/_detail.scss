@@ -12,7 +12,7 @@ h4 {
   margin-bottom: 6.5px;
 }
 
-.card-contact-side {
+.flex-section {
   display: flex;
   justify-content: space-between;
 }
@@ -32,6 +32,13 @@ h4 {
 .left {
   padding-top: 5px;
   margin-left: 30px;
+}
+
+#legal {
+  font-size: 14px;
+  font-style: italic;
+  float:right;
+  padding: 0 25px 5px 0;
 }
 
 // iphone du 4 au x
@@ -68,6 +75,9 @@ h4 {
     .mail {
       margin-bottom: 10px;
     }
+    #legal {
+      padding: 0 0 5px 0;
+    }
   }
 
 @media (max-width: 767px) {
@@ -102,4 +112,5 @@ h4 {
       padding-top: 5px;
       margin-left: 10px;
     }
+
 }
