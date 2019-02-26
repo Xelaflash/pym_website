@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.4.3'
+ruby '2.5.3'
 
 gem 'devise'
 gem 'figaro'
@@ -10,7 +10,7 @@ gem 'rails', '5.1.5'
 gem 'redis'
 
 gem 'autoprefixer-rails'
-gem 'bootstrap-sass', '~> 3.3'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'font-awesome-sass', '~> 5.0.6'
 gem 'sass-rails'
 gem 'simple_form'
