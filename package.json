@@ -2,7 +2,7 @@
   "name": "pym_website",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^3.3.0",
+    "@rails/webpacker": "^3.5.0",
     "bootstrap": "3.4.1",
     "gmaps": "^0.4.24",
     "jquery": "^3.3.1"
