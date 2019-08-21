@@ -1,18 +1,18 @@
 source 'https://rubygems.org'
 ruby '2.5.3'
 
+gem 'sass-rails'
+gem 'rails', '5.2.3'
 gem 'devise'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
 gem 'puma'
-gem 'rails', '5.2.3'
 gem 'redis'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'font-awesome-sass', '~> 5.0.6'
-gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
@@ -30,4 +30,3 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
-
